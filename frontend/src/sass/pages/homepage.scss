@@ -1,0 +1,48 @@
+.section-about-freelance {
+  background-color: $color-grey-light-1;
+  padding: 27.5rem 0;
+  margin-top: -20vh;
+  height: 95rem;
+}
+
+.section-features {
+  padding: 20rem 0;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba($color-primary-light, 0.8),
+      rgba($color-primary-dark, 0.8)),
+  url(../../img/nat-4.jpg);
+  background-size: cover;
+  -webkit-clip-path: polygon(0 0, 50% 8vh, 100% 0, 100% 32vh, 50% 100%, 0 32vh);
+  clip-path: polygon(0 0, 50% 8vh, 100% 0, 100% 90%, 0 90%);
+  margin-top: -12rem;
+}
+
+.section-projects {
+  background-color: $color-grey-light-1;
+  padding: 15rem 0 15rem 0;
+  margin-top: -10rem;
+}
+
+.section-book {
+  padding: 15rem 0;
+  background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark);
+}
+
+.book {
+  background-image: linear-gradient(105deg, 
+                                  rgba($color-white, .9) 0%,
+                                  rgba($color-white, .9) 50%,
+                                  transparent 50%) ,
+                          url(../../img/nat-10.jpg);
+  background-size: 100%;
+  border-radius: 3px;
+  box-shadow: 0 1.5rem 4rem rgba($color-black, .2);
+
+  height: 50rem;
+
+  &__form {
+      width: 50%;
+      padding: 6rem;
+  }
+}

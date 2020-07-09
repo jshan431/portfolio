@@ -1,8 +1,9 @@
 import React, { Fragment } from 'react';
 import { BrowserRouter as Router, Route, Redirect, Switch } from 'react-router-dom';
-import './App.css';
+import './sass/main.scss';
 import Homepage from './pages/Homepage';
 import Projects from './pages/Projects';
+
 const App = () => {
   return (
     <Router>
